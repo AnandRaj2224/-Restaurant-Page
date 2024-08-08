@@ -1,0 +1,1 @@
+alert('its works and the setup is done');

@@ -1,1 +1,1 @@
-alert('its works and the setup is done');
+import '../src/style.css';

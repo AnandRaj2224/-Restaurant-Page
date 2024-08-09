@@ -1,4 +1,5 @@
 import './style.css';
+import {menuPage} from "./menu";
 
 const content = document.getElementById('content');
 

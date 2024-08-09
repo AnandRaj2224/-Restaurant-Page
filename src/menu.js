@@ -1,3 +1,8 @@
+import misoRamen from './images/miso-ramen.jpg'
+import shioRamen from './images/shio-ramen.jpg'
+import tonkotsuRamen from './images/tonkotsu-ramen.jpg'
+import tsukemenRamen from './images/tsukemen-ramen.jpg'
+import shoyuRamen from './images/shoyu-ramen.jpg'
 
 // menu page - item 1
   const menuItem1 = document.createElement('div');
@@ -10,7 +15,7 @@
 
   const menuItem1Image = document.createElement('img');
   menuItem1Image.classList.add('itemImages');
-  menuItem1Image.src = './images/miso-ramen.jpg'
+  menuItem1Image.src = misoRamen;
   menuItem1.appendChild(menuItem1Image);
 
 // menu page - item 2
@@ -24,7 +29,7 @@
 
   const menuItem2Image = document.createElement('img');
   menuItem2Image.classList.add('itemImages');
-  menuItem2Image.src = './images/shio-ramen.jpg'
+  menuItem2Image.src = shioRamen;
   menuItem2.appendChild(menuItem2Image);
 
 // menu page - item 3
@@ -38,7 +43,7 @@
 
   const menuItem3Image = document.createElement('img');
   menuItem3Image.classList.add('itemImages');
-  menuItem3Image.src = './images/shoyu-ramen.jpg'
+  menuItem3Image.src = shioRamen;
   menuItem3.appendChild(menuItem3Image);
 
 // menu page - item 4
@@ -52,7 +57,7 @@
 
   const menuItem4Image = document.createElement('img');
   menuItem4Image.classList.add('itemImages');
-  menuItem4Image.src = './images/tonkostsu-ramen.jpg'
+  menuItem4Image.src = tonkotsuRamen;
   menuItem4.appendChild(menuItem4Image);
 
 // menu page - item 5
@@ -66,7 +71,7 @@
 
   const menuItem5Image = document.createElement('img');
   menuItem5Image.classList.add('itemImages');
-  menuItem5Image.src = './images/tsukemen-ramen.jpg'
+  menuItem5Image.src = tsukemenRamen;
   menuItem5.appendChild(menuItem5Image);
 
 

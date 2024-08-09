@@ -1,4 +1,10 @@
 const content = document.getElementById('content');
+const header =  document.getElementById('header');
+import navCover from './images/navCover.jpg'
+const headerImage = document.createElement('img');
+headerImage.classList.add('headerImage');
+headerImage.src = navCover;
+header.appendChild(headerImage);
 
 // home page - welcome article
   const welcome = document.createElement('div');

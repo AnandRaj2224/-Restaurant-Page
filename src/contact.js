@@ -1,3 +1,4 @@
+import random from './images/random.png'
 // page contact - opening hours
   const openingHours = document.createElement('div');
   openingHours.classList.add('opening');
@@ -9,8 +10,8 @@
 
   const openingHoursText = document.createElement('p');
   openingHoursText.classList.add('info')
-  openingHoursText.textContent = `Mo-Fr: 10 am to 11 pm
-                                  Sa-Su: 12 pm to 12 am`;
+  openingHoursText.textContent = `Monday-Friday: 10 am to 11 pm ||
+                                  Saturday-Sunday: 12 pm to 12 am`;
   openingHours.appendChild(openingHoursText);
 
 // page contact - address
@@ -24,12 +25,12 @@
 
   const addressText  = document.createElement('p');
   addressText.classList.add('info');
-  addressTitle.textContent = `Random ass place`;
+  addressText.textContent = `Random ass place`;
   address.appendChild(addressText);
 
   const addressImage = document.createElement('img');
   addressImage.classList.add('itemImage');
-  addressImage.src = './images/loaction.png';
+  addressImage.src = random;
   address.appendChild(addressImage);
 
 // page contact - phone and email

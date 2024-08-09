@@ -78,3 +78,12 @@ welcome.appendChild(welcomeText);
   From Classic to Creative
   Whether you’re in the mood for a classic Shoyu Ramen or a bold, spicy Miso Ramen, our menu offers something for everyone. We take pride in our diverse selection, each dish carefully prepared to highlight the best flavors and textures. At Ramen Haven, every meal is an opportunity to savor the finest ramen.`;
   quality.appendChild(qualityText);
+
+  const home = document.getElementById('btn1');
+  home.addEventListener('click', () =>{
+    content.innerHTML = '';
+  content.appendChild(welcome);
+  content.appendChild(whyUs);
+  content.appendChild(recipes);
+  content.appendChild(quality);
+  });

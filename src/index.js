@@ -1,5 +1,6 @@
 import './style.css';
 import {menuPage} from "./menu";
+import {contactPage} from "./contact";
 
 const content = document.getElementById('content');
 
